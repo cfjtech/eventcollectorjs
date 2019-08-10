@@ -30,7 +30,7 @@ Includes setting code to anywhere on your website
 ```html
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s);j.async=true;j.src='https://localhost/public/eventcollectorjs/sdk-0.1.1.js';f.parentNode.insertBefore(j,f);
-    w['cfjEndponit'] = i;
+    w['cfjEndpoint'] = i;
     })(window,document,'script','cfjDataLayer','https://localhost/api/pixel');
     cfjDataLayer.push({event: 'pageView'})
 </script>
