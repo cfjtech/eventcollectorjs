@@ -1,0 +1,40 @@
+{
+  "name": "eventcollectorjs",
+  "version": "0.1.10",
+  "description": "Script using to collect user event",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "NODE_ENV=production API_VERSION=0.1.10 parcel build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/carfromjapan/eventcollectorjs.git"
+  },
+  "keywords": [
+    "eventcollector",
+    "user",
+    "data"
+  ],
+  "author": "tech@carfromjapan.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/carfromjapan/eventcollectorjs#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.358.0",
+    "core-js": "^3.1.4"
+  }
+}
